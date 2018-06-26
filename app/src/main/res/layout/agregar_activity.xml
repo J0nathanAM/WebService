@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Usuario"
+        android:id="@+id/usu"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="¿Cuál es tu opinión?"
+        android:inputType="textMultiLine"
+        android:id="@+id/opi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Calificación:"
+        android:layout_margin="10dp" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/barra"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calificación"
+        android:layout_margin="10dp"
+        android:id="@+id/calificacion"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Opinión"
+        android:layout_margin="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/agregar"/>
+
+
+</LinearLayout>
